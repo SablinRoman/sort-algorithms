@@ -9,8 +9,7 @@ def sort(arr):
         sort(left)
         sort(right)
 
-        i = j = k = 0
-
+     
         while i < len(left) and j < len(right):
             if left[i] < right[j]:
                 arr[k] = left[i]
